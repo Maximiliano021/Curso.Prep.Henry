@@ -1,0 +1,4 @@
+for = es una repeticion constante, que tiene un limite, que se define con i<3, i es el numero por el cual vamos a empezar. Ejemplo:0, 0<3? si, ejecuta , aumenta 0+1=1, y devuelta todo.
+&& = es cuando tenemos que comparar ambas cosas, y decimos que si, cuando LAS DOS cumple. Messi es zurdo Y brasilero ? no, porque solo cumple que es zurdo. 
+|| = es cuando tenemos que comparar ambas cosas, y decimos que si, cuando ALGUNA cumple . Messi es zurdo O brasilero ? si, porque con que cumpla que es zurdo alcanza.
+! = es cuando invertimos una negacion o afirmacion, LO NIEGA. messi  es zurdo y brasilero ? no , BUENO NEGAMELO (invertilo), entonces al negar el   no (false) --> ! (false) = true (verdadero)

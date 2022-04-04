@@ -16,7 +16,7 @@ const nuevaResta = 10 - 5 === 5;
 const nuevaMultiplicacion = 10 * 4 === 40 ;
 
 // Resuelve el siguiente problema matemático:
-const nuevoModulo = 21 % 5 === 4.2;
+const nuevoModulo = 21 % 5 === 1;
 
 
 // En los próximos 22 problemas, deberás completar la función.
@@ -126,7 +126,7 @@ function elevar(num, exponent) {
 function redondearNumero(num) {
   // Redondea "num" al entero más próximo y devuélvelo
   // Tu código:
-  return Math.ceil(num);
+  return Math.round(num);
 }
 
 function redondearHaciaArriba(num) {
@@ -151,8 +151,9 @@ function esPositivo(numero) {
     return 'Es positivo';
 
   if(numero <0)
-    return 'Es Negativo';
-
+    return 'Es negativo';
+  
+  if(numero===0)
     return false;
 }
 
@@ -174,7 +175,7 @@ function obtenerSaludo(nombre) {
   // Toma la string "nombre" y concatena otras string en la cadena para que tome la siguiente forma:
   // "Martin" -> "Hola Martin!"
   // Tu código:
-  return 'Hola' + ' ' + 'Martin!' 
+  return 'Hola' + ' ' + nombre + '!'; 
 }
 
 function obtenerAreaRectangulo(alto, ancho) {
@@ -213,8 +214,10 @@ function esVocal(letra){
   // Si no es vocal, tambien debe devolver "Dato incorrecto".
   //Escribe tu código aquí
       //aunque el switch tome incorrecto si ingreso mas de una letra
-  if(letra.length > 1)
-    return 'Dato Incorrecto';
+  if(letra.length != 1 || ((typeof letra)==='number'))
+    return 'Dato incorrecto';
+
+
 
   letra = letra.toUpperCase();
   let mensaje;
@@ -223,9 +226,9 @@ function esVocal(letra){
     case 'E':
     case 'I':
     case 'O':
-    case 'U': mensaje = 'Es Vocal';
+    case 'U': mensaje = 'Es vocal';
       break;
-    default: mensaje = 'Dato Incorrecto';
+    default: mensaje = 'Dato incorrecto';
   }
   return mensaje;
 

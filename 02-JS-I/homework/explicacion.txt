@@ -1,0 +1,5 @@
+Variables = Son cajas en el cada uno almacena lo que uno quiera, y como es una caja, cualquiera pueda cambiar su contendio
+Strings = Con "cadenas" de texto, se llama cadena, porque una letra encadena a otra: "HOLA" , O encadena a H ; L encadena a HO , etc..
+Funciones = Son "funciones" , ya que esta destinado hacer una tarea especifica ejemplo: funcion sumar(numero1, numero2), destinada a sumar, y devolveria un resultado
+Declaraciones = Como si fuera un letrero en la calle, que indica que si queres ir a x lugar, anda por la "izquierda" , sino anda por la "derecha" , este seria else. Es para tomar decisiones.
+Valores booleanos =  como nosotros manejamos el NO  y SI, en este caso si una casa es alta, esta casa es alta  === true(verdadero) , sino es ===false(falso)
